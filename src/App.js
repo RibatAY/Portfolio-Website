@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
@@ -24,7 +24,7 @@ function App() {
       <Navbar />
 
       {showCV && (
-        <a href="/image/CV_Template.pdf" download className="cv-float">Get My CV</a>
+        <a href="/images/CV_Template.pdf" download className="cv-float">Get My CV</a>
       )}
 
       <div className="scroll-container">

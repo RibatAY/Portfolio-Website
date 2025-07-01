@@ -17,12 +17,12 @@ const portfolioData = [
     id: 1,
     title: 'Supermarket Management Aplication',
     images: [
-      '/images/OOVP (Super Market)/Picture4.png',
-      '/images/OOVP (Super Market)/Picture5.png',
-      '/images/OOVP (Super Market)/Picture6.png'
+      '/images/OOVP (Super market)/Picture4.png',
+      '/images/OOVP (Super market)/Picture5.png',
+      '/images/OOVP (Super market)/Picture6.png'
     ],
     descriptionFull: 'A Java-based inventory management system using Swing GUI and OOP principles such as inheritance, polymorphism, encapsulation, and abstraction. It includes modules for managing products, users, categories, and transactions. I worked on implementing the product and seller management features.',
-    reportLink: '/images/OOVP (Super Market)/Ribattullah - Object Oriented Visual Programming(Mini Project).pdf'
+    reportLink: '/images/OOVP (Super market)/Ribattullah - Object Oriented Visual Programming(Mini Project).pdf'
   },
   {
     id: 2,
@@ -50,9 +50,9 @@ const portfolioData = [
     id: 4,
     title: 'Analysis Malware',
     images: [
-      '/images/malware/Mal1.png',
-      '/images/malware/Mal2.png',
-      '/images/malware/Mal3.png',
+      '/images/Malware/Mal1.png',
+      '/images/Malware/Mal2.png',
+      '/images/Malware/Mal3.png',
     ],
     descriptionFull: 'This project focuses on the analysis of njRAT v0.6.4, a well-known Remote Access Trojan (RAT), using a secure and isolated virtual lab environment (FlareVM and Remnux). Both static and dynamic analysis techniques were employed to investigate the malware’s behavior—how it infects a system, connects to its Command and Control (C2) server, and performs actions like keylogging, webcam access, and remote desktop control. The project also includes reverse engineering of the malware’s code to reveal its command structure and string encryption mechanisms. The objective is to identify indicators of compromise (IOCs), develop a remediation plan, and enhance understanding of real-world threats for educational and research purposes.',
     reportLink: '/images/Malware/Final Reports.pdf'

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/Portofolio.css';
-import portfolioData from '../data/portfolio';
+import portfolioData from '../data/portfolio.js';
 import ShinyText from '../components/Shinytext.js';
 import Modal from '../components/Modal.js';
 import RevealItem from '../components/RevealItem.js';
