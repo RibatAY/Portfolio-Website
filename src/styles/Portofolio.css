@@ -1,0 +1,71 @@
+/* SECTION UTAMA */
+.portfolio-section {
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0f0f0f;
+}
+
+/* Container tetap */
+.section-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* GRID CARD */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.portfolio-card {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: left;
+  transition: transform 0.3s;
+  border: 1px solid #00ffcc;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.03);
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.portfolio-card h3 {
+  color: #00ffe1;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-card button {
+  background-color: #00ffe1;
+  color: #000;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.portfolio-card button:hover {
+  opacity: 0.8;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .portfolio-card {
+    padding: 1rem;
+  }
+}
