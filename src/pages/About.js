@@ -52,32 +52,8 @@ function About() {
             <div className="timeline-item">
               <div className="timeline-dot"></div>
               <div className="timeline-content">
-                <h3>SMAN 1 SETU</h3>
-                <p>Active in Information, Communication, and Technology (ICT) Extracurricular</p>
-              </div>
-            </div>
-
-            <div className="timeline-item">
-              <div className="timeline-dot"></div>
-              <div className="timeline-content">
-                <h3>President University | Semester 1</h3>
-                <p>Working on Java and Frontend web projects</p>
-              </div>
-            </div>
-
-            <div className="timeline-item">
-              <div className="timeline-dot"></div>
-              <div className="timeline-content">
-                <h3>President University | Semester 2</h3>
-                <p>Focusing on Backend and Database development</p>
-              </div>
-            </div>
-
-            <div className="timeline-item">
-              <div className="timeline-dot"></div>
-              <div className="timeline-content">
-                <h3>President University | Semester 3</h3>
-                <p>Social Project: Donating and organizing events at an Orphanage.</p>
+                <h3>President University | Semester 5</h3>
+                <p>Focusing on learning cybersecurity</p>
               </div>
             </div>
 
@@ -92,8 +68,32 @@ function About() {
             <div className="timeline-item">
               <div className="timeline-dot"></div>
               <div className="timeline-content">
-                <h3>President University | Semester 5</h3>
-                <p>Focusing on learning cybersecurity</p>
+                <h3>President University | Semester 3</h3>
+                <p>Social Project: Donating and organizing events at an Orphanage</p>
+              </div>
+            </div>
+
+            <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
+                <h3>President University | Semester 2</h3>
+                <p>Focusing on Backend and Database development</p>
+              </div>
+            </div>
+
+            <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
+                <h3>President University | Semester 1</h3>
+                <p>Working on Java and Frontend web projects</p>
+              </div>
+            </div>
+
+            <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
+                <h3>SMAN 1 SETU</h3>
+                <p>Active in Information, Communication, and Technology (ICT) Extracurricular</p>
               </div>
             </div>
           </div>
