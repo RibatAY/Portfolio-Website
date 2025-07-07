@@ -74,6 +74,21 @@ const skillsData = [
       category: 'Tools',
       level: 80
     },
+    {
+      name: 'Autopsy',
+      category: 'Tools',
+      level: 70
+    },
+    {
+      name: 'MariaDB',
+      category: 'Database',
+      level: 60
+    },
+    {
+      name: 'NMAP',
+      category: 'Tools',
+      level: 75
+    },
   ];
   
   export default skillsData;

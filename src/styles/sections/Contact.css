@@ -1,0 +1,164 @@
+.contact-section {
+  min-height: 100vh;
+  padding: 6rem 2rem;
+  background: url('/images/circle-scatter-haikei.png') no-repeat center center / cover;
+  background-color: #0f0f0f;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.subtext {
+  color: #fff;
+  margin-bottom: 3rem;
+  font-size: 1.25rem;
+}
+
+.contact-container {
+  display: flex;
+  gap: 3rem;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 12px;
+  color: #fff;
+  text-align: left;
+  border: 2px solid #00ffcc;
+}
+
+.info-block {
+  margin-bottom: 2rem;
+}
+
+.info-block span {
+  font-weight: bold;
+  display: block;
+  color: #00ffe1;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.info-block p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  flex-direction: column;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  border: 2px solid #00ffe1;
+  background: transparent;
+  color: #00ffe1;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-size: 1rem;
+}
+
+.social-btn.linkedin:hover {
+  background: #0077b5;
+  color: #fff;
+}
+
+.social-btn.github:hover {
+  background: #333;
+  color: #fff;
+}
+
+.contact-form {
+  flex: 2;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1.2rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #585858;
+  color: #fff;
+  font-size: 1.05rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid #00ffe1;
+}
+
+.contact-form button {
+  background-color: #00ffe1;
+  color: #000;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.3s, background 0.3s;
+}
+
+.contact-form button:hover {
+  opacity: 0.8;
+}
+
+.contact-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-status {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.form-status.success {
+  color: #00ffae;
+}
+
+.form-status.error {
+  color: #ff6b6b;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+
+  .social-buttons {
+    justify-content: center;
+  }
+}

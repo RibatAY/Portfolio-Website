@@ -10,7 +10,8 @@ const portfolioData = [
       '/images/Virtual Tour Campus/ss 5.png',
       '/images/Virtual Tour Campus/ss 6.png',
     ],
-    descriptionFull: 'A 3D animated short about an astronaut who encounters an alien on the Moon. I contributed to character modeling, animation, and scene design. The project was created using Blender and explored techniques like hard surface modeling, dynamic topology, and emission materials to simulate futuristic space visuals.',
+    descriptionFull: 'A virtual campus tour website designed to help new students and visitors explore the university remotely. Developed using HTML, CSS, and third-party panorama tools (Pano2VR), the application includes interactive hotspots, admin panel for updates, and a 360° campus view. I contributed to the front-end layout and virtual tour integration.'
+,
     reportLink: '/images/Virtual Tour Campus/Final Report SE Template.pdf'
   },
   {
@@ -43,7 +44,7 @@ const portfolioData = [
       '/images/3D/ss 2.png',
       '/images/3D/ss 3.png'
     ],
-    descriptionFull: 'A virtual campus tour website designed to help new students and visitors explore the university remotely. Developed using HTML, CSS, and third-party panorama tools (Pano2VR), the application includes interactive hotspots, admin panel for updates, and a 360° campus view. I contributed to the front-end layout and virtual tour integration.',
+    descriptionFull: 'A 3D animated short about an astronaut who encounters an alien on the Moon. I contributed to character modeling, animation, and scene design. The project was created using Blender and explored techniques like hard surface modeling, dynamic topology, and emission materials to simulate futuristic space visuals.',
     reportLink: '/images/3D/My Friend Pedro.pdf'
   },
   {
