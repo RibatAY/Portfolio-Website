@@ -1,6 +1,7 @@
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const RESEND_API_KEY = process.env.RESEND_API_KEY || 'DUMMY';
+const resend = new Resend(RESEND_API_KEY);
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -11,6 +12,11 @@ export default async function handler(req, res) {
 
   if (!email || !subject || !message) {
     return res.status(400).json({ message: 'Missing required fields' });
+  }
+
+  if (RESEND_API_KEY === 'DUMMY') {
+    console.log('✅ Dummy mode active. Email not actually sent.');
+    return res.status(200).json({ message: '✅ Dummy: Email not sent but marked success.' });
   }
 
   try {
